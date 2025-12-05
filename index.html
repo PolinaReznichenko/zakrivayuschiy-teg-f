@@ -25,34 +25,71 @@
         <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
-        <img
-          class="card__image"
-          src="./images/image.png"
-          alt=""
-          loading="lazy"
-        />
-        <p class="card__text">
-          Это было самое начало пути. На этом этапе важно было проникнуться
-          основами и настроиться на учёбу. И, возможно, подумать, как новые
-          знания могут повлиять на ваше будущее.
-        </p>
-        <p class="card__text">
-          Место для ваших воспоминаний о начале обучения.
-        </p>
-        <div>
-          <button class="card__icon-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36"><g clip-path="url(#a)"><path fill="#000" d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"/><path fill="red" d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"/><path fill="#fff" d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"/><path fill="red" d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h39v36H0z"/></clipPath></defs></svg>
-          </button>
-          <button>
-            <span class="button__text">Like</span>
-          </button>
+        <div class="card__image-container">
+          <img
+            class="card__image"
+            src="./images/image.png"
+            alt="Пиксельное изображение фургона-дома на колесах на природе в вечернее время"
+            loading="lazy"
+          />
+          <span class="decorative-text__label">&lt;/HTML&gt;</span>
+        </div>
+        <div class="card-description">
+          <p class="card__text">
+            Это было самое начало пути. На этом этапе важно было проникнуться
+            основами и настроиться на учёбу. И, возможно, подумать, как новые
+            знания могут повлиять на ваше будущее.
+          </p>
+          <p class="ard__text">
+            Место для ваших воспоминаний о начале обучения.
+          </p>
+          <div class="like-button-container">
+            <!--КНОПКА С СЕРДЦЕМ-->
+            <button class="card__icon-button" type="button">
+              <svg
+                class="like-icon is-liked"
+                xmlns="http://www.w3.org/2000/svg"
+                width="39"
+                height="36"
+                fill="none"
+                viewBox="0 0 39 36"
+              >
+                <g clip-path="url(#a)">
+                  <path
+                    fill="#000"
+                    d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
+                  />
+                  <path
+                    fill="red"
+                    d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
+                  />
+                  <path
+                    fill="#fff"
+                    d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
+                  />
+                  <path
+                    fill="red"
+                    d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M0 0h39v36H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+            <button class="card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+            <!---->
+          </div>
         </div>
       </article>
-
-
-      <button>
-        <svg>
-          <use></use>
+           <!--КНОПКА СОХРАНИТЬ НА ПАМЯТЬ-->
+      <button class="save__button" type="button">
+        <svg class="save__button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39">
+          <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>

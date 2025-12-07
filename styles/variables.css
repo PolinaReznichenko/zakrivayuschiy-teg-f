@@ -11,9 +11,13 @@
     --card-title-color: #000;
     --logo-group-color: #000;
     --border-color: #000;
-    --button-color: #000;
+
+    --button-color: #fff;
+    /* --button-accent-color: #000; */
+
     --decorative-label-color: #000;
-    --label-text-stroke-color: #fff; 
+    --label-text-stroke-color: #fff;
+    --accent-color: #000;
     
     --background-gradient:
     repeating-linear-gradient(to right, #d3d3d3 0px 2px, rgb(211 211 211 / 0) 2px 4px),

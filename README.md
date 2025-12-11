@@ -1,2 +1,3 @@
-https://github.com/PolinaReznichenko/zakrivayuschiy-teg-f
-https://polinareznichenko.github.io/zakrivayuschiy-teg-f/
+## github: https://github.com/PolinaReznichenko/zakrivayuschiy-teg-f
+
+## github-pages: https://polinareznichenko.github.io/zakrivayuschiy-teg-f/
